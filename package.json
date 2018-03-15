@@ -1,0 +1,22 @@
+{
+  "name": "router-lite",
+  "version": "0.0.1",
+  "description": "Router lite that uses the element-lite",
+  "main": "router-lite.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjmonsi/router-lite.git"
+  },
+  "author": "TJ Monserrat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tjmonsi/router-lite/issues"
+  },
+  "homepage": "https://github.com/tjmonsi/router-lite#readme",
+  "dependencies": {
+    "@littleq/element-lite": "^0.1.0"
+  }
+}
