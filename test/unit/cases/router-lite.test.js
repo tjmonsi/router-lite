@@ -2,6 +2,7 @@
 /* eslint-disable no-undef */
 
 suite('RouterLite', () => {
+
   test('should have not be a HTMLUnknownElement constructor', () => {
     const el = document.querySelector('#test');
     expect(el.constructor.is).to.equal('router-lite');

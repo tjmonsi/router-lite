@@ -15,21 +15,8 @@
       <route-data-lite route="/paththis/:id2"></route-data-lite>
     </router-lite>
 
-    <script>
-      window.addEventListener('WebComponentsReady', function() {
-        var component = document.createElement('script');
-        component.src = '../../dist/router-lite.umd.es5.js';
-        document.head.appendChild(component);
-
-        var componentTwo = document.createElement('script');
-        componentTwo.src = '../../dist/route-data-lite.umd.es5.js';
-        document.head.appendChild(componentTwo);
-        setTimeout(function() {
-          var cases = document.createElement('script');
-          cases.src = './cases-es5/router-lite.test.js';
-          document.head.appendChild(cases);
-        }, 200);
-      });
-    </script>
+    <script src="../../dist/router-lite.umd.es5.js"></script>
+    <script src="../../dist/route-data-lite.umd.es5.js"></script>
+    <script src="./cases-es5/router-lite.test.js"></script>
   </body>
 </html>
