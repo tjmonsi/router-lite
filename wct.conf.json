@@ -1,0 +1,11 @@
+{
+  "suites": ["test/runner.html"],
+  "verbose": false,
+  "quiet": false,
+  "persistent": true,
+  "plugins": {
+    "local": {
+      "browsers": ["chrome"]
+    }
+  }
+}
