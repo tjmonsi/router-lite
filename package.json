@@ -13,8 +13,7 @@
     "test": "npm run semistandard && npm run size && npm run wct-prod",
     "build": "./node_modules/.bin/rollup -c",
     "postinstall": "node compiler.js && ./node_modules/.bin/semistandard --fix lib/path-to-regexp.js",
-    "pretest": "npm run build",
-    "prepublishOnly": "npm test"
+    "pretest": "npm run build"
   },
   "files": [
     "router-lite.js",
