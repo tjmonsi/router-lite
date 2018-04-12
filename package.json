@@ -12,12 +12,13 @@
     "wct-sauce": "./node_modules/.bin/wct --npm --configFile wct-sauce.conf.json",
     "test": "npm run semistandard && npm run size && npm run wct-prod",
     "build": "./node_modules/.bin/rollup -c",
-    "postinstall": "node compiler.js && ./node_modules/.bin/semistandard --fix lib/path-to-regexp.js",
+    "postinstall": "node compiler.js",
     "pretest": "npm run build"
   },
   "files": [
     "router-lite.js",
     "route-data-lite.js",
+    "compiler.js",
     "dist"
   ],
   "repository": {
@@ -51,7 +52,8 @@
     "parser": "babel-eslint",
     "ignore": [
       "test/*",
-      "dist/*"
+      "dist/*",
+      "lib/path-to-regexp.js"
     ],
     "env": [
       "mocha"
