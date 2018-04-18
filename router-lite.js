@@ -113,6 +113,7 @@ class RouterLite extends window.HTMLElement {
   }
 
   _pathChanged (path) {
+    if (!path) return;
     let exec = null;
     let re = null;
     let keys = [];
