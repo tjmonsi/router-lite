@@ -1,6 +1,6 @@
 {
   "name": "@littleq/router-lite",
-  "version": "0.1.1-3",
+  "version": "0.1.1-4",
   "description": "Router lite that uses the element-lite",
   "main": "router-lite.js",
   "scripts": {
