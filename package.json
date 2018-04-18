@@ -19,7 +19,8 @@
     "router-lite.js",
     "route-data-lite.js",
     "compiler.js",
-    "dist"
+    "dist",
+    "lib"
   ],
   "repository": {
     "type": "git",
